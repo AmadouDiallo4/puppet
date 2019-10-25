@@ -13,3 +13,9 @@ node server0{
 		}
 
 }
+
+node server1{
+	package { 'tree':
+		ensure => installed,
+	}
+}
