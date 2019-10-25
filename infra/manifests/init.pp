@@ -9,7 +9,7 @@ node default {
 
 node server0{ 
 	package { 'tmux':
-		ensure => 'tmux',
+		ensure => installed,
 		}
 
 }
